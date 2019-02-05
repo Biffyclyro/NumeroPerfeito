@@ -10,7 +10,7 @@ public class Test {
     private static void rangeNum(int x){
         for(int i=0; i<=x; i++){            
             if(Comparador.numPerfeito(i)!=0){
-                System.out.println(i);
+                System.out.println(i + " É um numero perfeito");
             }
         }
     }
